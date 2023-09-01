@@ -2,10 +2,10 @@
 import "./app.css";
 import Formulario from "./components/formulario/formulario";
 
-function App () {
+function App (props) {
   return (
     <>
-    <Formulario/>
+    <Formulario titulo="Entrar"/>
     </>
   );
 }

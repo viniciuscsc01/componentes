@@ -15,8 +15,8 @@ function Formulario() {
                     Formulário de Login
                 </Typography>
                <Box component="form" sx={{ mt:1}}>
-                <TextField fullWidth label="Email" nome="email" variant="filled" margin="normal"/>
-                <TextField fullWidth label="Senha" type="password" variant="filled" margin="normal"/>
+                <TextField fullWidth margin="normal" label="Email" nome="email" variant="filled"  required/>
+                <TextField fullWidth margin="normal" label="Senha" type="password" variant="filled"  required/>
                 <FormControlLabel
                 control={<Checkbox value="remember" color="primary"/>}
                 label="Lembrar-me"
